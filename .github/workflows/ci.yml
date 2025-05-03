@@ -1,0 +1,14 @@
+name: Hello World CI
+
+on: [push]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v3
+
+    - name: Run echo command
+      run: echo "Check 1 test: GitHub Actions is working"
