@@ -7,8 +7,8 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout code
-      uses: actions/checkout@v3
+      - name: Checkout code
+        uses: actions/checkout@v3
 
-    - name: Run echo command
-      run: echo "Check 1 test: GitHub Actions is working"
+      - name: Run echo command
+        run: echo "Test GitHub Actions is working"
