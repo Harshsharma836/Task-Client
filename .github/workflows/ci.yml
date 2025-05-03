@@ -11,4 +11,5 @@ jobs:
         uses: actions/checkout@v3
 
       - name: Run echo command
-        run: echo "Test GitHub Actions is working"
+        run: |
+          echo "Check 1 test: GitHub Actions is working"
